@@ -19,12 +19,32 @@ C vals: [2, 2, 2, 4] [2, 2, 1, 1] [3, 1, 1, 1]
 
 ## Compile & Run
 In this project, we use [bb_segsort](https://github.com/vtsynergy/bb_segsort/tree/master) for segmented sorting.
+
+**Download**
+```
+git clone --recurse-submodules https://github.com/chih-chun-chang/segmerge
 ```
 
+**Compile**
+```
+mkdir build && cd build
+cmake ..
+make
+```
+
+**Test**
+```
+make test
+```
+
+**Run**
+```
+./run [n]
 ```
 
 ## Expected Output
 ```
+$ ./run 131072
 Merging two arrays of 131072 keys and vals
 Largest key       : 20
 Smallest key      : 0
