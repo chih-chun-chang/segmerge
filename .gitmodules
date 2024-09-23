@@ -1,0 +1,3 @@
+[submodule "bb_segsort"]
+	path = bb_segsort
+	url = https://github.com/vtsynergy/bb_segsort.git
